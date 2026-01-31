@@ -1,0 +1,103 @@
+[Root]
+Most Recent Package=Logiciel Economiseur
+
+
+[Package|Logiciel Economiseur|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=J:\MES SOURCES\VISUAL BASIC\SOURCE\DELTA\INSTALL\ECONOMISEUR
+
+[Package|Logiciel Economiseur|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Logiciel Economiseur|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Logiciel Economiseur|Files Found]
+
+[Package|Logiciel Economiseur|Files Released]
+
+[Package|Logiciel Economiseur|Missing Dependency Information]
+J:\MES SOURCES\VISUAL BASIC\SOURCE\DELTA\EXECUTABLE\DLL\DeltaApi.dll=
+
+[Package|Logiciel Economiseur|Out-of-Date Dependency Information]
+C:\WINNT\system32\scrrun.dll=
+
+[Package|Logiciel Economiseur|Files Added]
+
+[Package|Logiciel Economiseur|Files Removed]
+
+[Package|Logiciel Economiseur|Files In Project]
+J:\MES SOURCES\VISUAL BASIC\SOURCE\DELTA\EXECUTABLE\EXE\Economiseur.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+J:\LOGICIEL PROGRAMMATION\VISUAL STUDIO\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+J:\LOGICIEL PROGRAMMATION\VISUAL STUDIO\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+J:\LOGICIEL PROGRAMMATION\VISUAL STUDIO\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+J:\LOGICIEL PROGRAMMATION\VISUAL STUDIO\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+J:\LOGICIEL PROGRAMMATION\VISUAL STUDIO\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\VB6FR.DLL=Yes
+C:\WINNT\system32\scrrun.dll=Yes
+C:\WINNT\system32\msvcrt.dll=Yes
+C:\WINNT\system32\scrrnfr.dll=Yes
+J:\MES SOURCES\VISUAL BASIC\SOURCE\DELTA\EXECUTABLE\DLL\DeltaApi.dll=Yes
+J:\LOGICIEL PROGRAMMATION\VISUAL STUDIO\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+J:\LOGICIEL PROGRAMMATION\VISUAL STUDIO\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+J:\LOGICIEL PROGRAMMATION\VISUAL STUDIO\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+J:\LOGICIEL PROGRAMMATION\VISUAL STUDIO\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Logiciel Economiseur|Configure Registry Files]
+Applicable=No
+
+[Package|Logiciel Economiseur|Configure Remote Servers]
+Applicable=No
+
+[Package|Logiciel Economiseur|Install Locations]
+J:\MES SOURCES\VISUAL BASIC\SOURCE\DELTA\EXECUTABLE\EXE\Economiseur.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+J:\LOGICIEL PROGRAMMATION\VISUAL STUDIO\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+J:\LOGICIEL PROGRAMMATION\VISUAL STUDIO\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+J:\LOGICIEL PROGRAMMATION\VISUAL STUDIO\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+J:\LOGICIEL PROGRAMMATION\VISUAL STUDIO\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+J:\LOGICIEL PROGRAMMATION\VISUAL STUDIO\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB6FR.DLL=$(WinSysPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\scrrnfr.dll=$(WinSysPath)
+J:\MES SOURCES\VISUAL BASIC\SOURCE\DELTA\EXECUTABLE\DLL\DeltaApi.dll=$(WinSysPath)
+J:\LOGICIEL PROGRAMMATION\VISUAL STUDIO\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+J:\LOGICIEL PROGRAMMATION\VISUAL STUDIO\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+J:\LOGICIEL PROGRAMMATION\VISUAL STUDIO\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+J:\LOGICIEL PROGRAMMATION\VISUAL STUDIO\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Logiciel Economiseur|Configure Shared Files]
+Applicable=Yes
+J:\MES SOURCES\VISUAL BASIC\SOURCE\DELTA\EXECUTABLE\EXE\Economiseur.exe=Yes
+J:\LOGICIEL PROGRAMMATION\VISUAL STUDIO\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|Logiciel Economiseur|Distribution]
+Type=single
+Size=
+Title=Logiciel Economiseur
+
+[Package|Logiciel Economiseur|Package]
+PackageFolder=J:\MES SOURCES\VISUAL BASIC\SOURCE\DELTA\INSTALL\ECONOMISEUR
+ProjectFolder=J:\MES SOURCES\VISUAL BASIC\SOURCE\DELTA\PROJET\EXECUTABLE STANDARD\EXECUTABLE ECONOMISEUR
+ServerSideCab=
+File1=J:\MES SOURCES\VISUAL BASIC\SOURCE\DELTA\INSTALL\ECONOMISEUR\setup.exe
+File2=J:\MES SOURCES\VISUAL BASIC\SOURCE\DELTA\INSTALL\ECONOMISEUR\Setup.Lst
+File3=J:\MES SOURCES\VISUAL BASIC\SOURCE\DELTA\INSTALL\ECONOMISEUR\Economiseur.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Logiciel Economiseur|IconGroups]
+Group0=Delta Informatique
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Logiciel Economiseur|Delta Informatique]
+Icon1=Economiseur.exe
+Title1=Economiseur
+StartIn1=$(AppPath)
+Key1=Icon1

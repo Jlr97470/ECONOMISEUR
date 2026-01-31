@@ -1,0 +1,3 @@
+VBGROUP 5.0
+StartupProject=PrjExeEconomiseur.vbp
+Project=..\..\LIBRAIRIES\LIBRAIRIE_DELTA_API\Prjdlldeltaapi.vbp
